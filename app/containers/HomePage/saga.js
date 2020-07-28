@@ -26,7 +26,7 @@ import { UNFINISHED } from '../../constants';
 const API_ENDPOINT = '/api/tasks/';
 
 function connect() {
-  const socket = io('http://192.168.1.107:3000');
+  const socket = io();
   return new Promise(resolve => {
     socket.on('connect', () => {
       resolve(socket);

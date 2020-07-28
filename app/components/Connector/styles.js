@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     width: 300px;
     height: 300px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 801px) {
     display: none;
   }
 `;
