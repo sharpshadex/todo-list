@@ -1,0 +1,27 @@
+{
+  "projectName": "todo-list",
+  "projectOwner": "todo-list",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "mvpolcay",
+      "name": "Muhammet Olcay",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17480460?v=4",
+      "profile": "https://www.linkedin.com/in/muhammet-olcay-62130a135",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas",
+        "review",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 1
+}
