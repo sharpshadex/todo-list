@@ -50,7 +50,7 @@ export function HomePage(props) {
   }, []);
 
   const handleOnKeyDown = (event, inputValue, setInputValueCallback) => {
-    if (!inputValue) {
+    if (!inputValue || inputValue.toString().trim().length === 0) {
       return;
     }
     if (event.keyCode === 13) {
